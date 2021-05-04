@@ -1,17 +1,22 @@
 <div class="row">
   <div class="col-xs-10">
-    <app-shopping-edit></app-shopping-edit>
+    <app-shopping-edit
+    (ingredientAdded) = "onIngredientAdded($event)"></app-shopping-edit>
     <hr>
     <ul class="list-group">
       <a class="list-group-item"
       style="cursor: pointer"
       *ngFor="let ingredient of ingredients"
       >
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     {{ ingredient.name}} ({{ ingredient.amount}})
 =======
     {{ ingredient.name }} ({{ ingredient.amount }})
 >>>>>>> Stashed changes
+=======
+    {{ ingredient.name }} ({{ ingredient.amount}})
+>>>>>>> 84c0d69ecddbdedbf492b09755f4a442b8d1cb20
   </a>
       </ul>
   </div>

@@ -4,20 +4,32 @@
       <div class="row">
         <div class="col-sm-5 form-group">
           <label for="name">Name</label>
-          <input type="text" id="name" class="form-control">
+          <input
+          type="text"
+          id="name"
+          class="form-control"
+          #nameInput>
         </div>
         <div class="col-sm-2 form-group">
           <label for="amount">Amount</label>
-          <input type="number" id="amount" class="form-control">
+          <input
+          type="number"
+          id="amount"
+          class="form-control"
+          #amountInput>
         </div>
       </div>
       <div class="row">
       <div class="col-xs-12">
+<<<<<<< HEAD
 <<<<<<< Updated upstream
       <button class="btn btn-success" type="submit">Add</button>
 =======
       <button class="btn btn-success" type="button" (onlick)="onAddItem()">Add</button>
 >>>>>>> Stashed changes
+=======
+      <button class="btn btn-success" type="submit" (onlick)="onAddItem()">Add</button>
+>>>>>>> 84c0d69ecddbdedbf492b09755f4a442b8d1cb20
       <button class="btn btn-danger" type="button">Delete</button>
       <button class="btn btn-primary" type="button">Clear</button>
         </div>
